@@ -9,48 +9,115 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css?v=2" />
 </head>
 <body>
 
-  <div class="header d-flex justify-content-between align-items-center">
-    <div class="px-4 py-4">
-      <h1>Yash Shekhar Sahu</h1>
-      <p class="lead">Data Engineer - Azure | PySpark | Snowflake | Python | AWS</p>
-    </div>
-    <div class="px-4">
-      <img src="images/yash_picture.JPG" alt="Yash Shekhar Sahu" class="profile-pic">
-    </div>
-  </div>
+<div class="header d-flex justify-content-between align-items-center">
+<div class="px-4 py-4">
+    <h1>Yash Shekhar Sahu</h1>
+    <p class="lead">Data Engineer - Azure | AWS | Snowflake | Python | SQL | PySpark</p>
+</div>
+<div class="px-4">
+    <img src="images/yash_picture.JPG" alt="Yash Shekhar Sahu" class="profile-pic">
+</div>
+</div>
 
-  <div class="container content-section">
-    <h2 class="section-title">Professional Summary</h2>
-    <ul>
-      <li>Results-driven Data Engineer with 5+ years of experience designing and optimizing data pipelines.</li>
-      <li>Expert in scalable ETL/ELT using Python, PySpark, and SQL on Azure, AWS & Snowflake.</li>
-      <li>Experienced in data masking and row-level security using Snowflake features.</li>
-      <li>Collaborates effectively using GitHub, GitLab, Azure DevOps, JIRA, and Xray Testing.</li>
-    </ul>
-  </div>
+<div class="container content-section">
+<h2 class="section-title">Professional Summary</h2>
+<ul>
+    <li>Results-driven Data Engineer with 5+ years of experience designing and optimizing data pipelines.</li>
+    <li>Expert in scalable ETL/ELT using Python, PySpark, and SQL on Azure, AWS & Snowflake.</li>
+    <li>Experienced in Big-Data processing / transformation in distributed computing environment using PySpark and Databricks.</li>
+    <li>Experienced in data masking and row-level security using Snowflake features.</li>
+    <li>Collaborates effectively using GitHub, GitLab, Azure DevOps, JIRA, and Xray Testing.</li>
+</ul>
+</div>
 
-  <div class="container content-section">
-    <h2 class="section-title">Technical Skills</h2>
-    <table class="table table-bordered">
-      <tbody>
-        <tr><th>Programming Languages</th><td>Python (NumPy, Pandas), PySpark, SQL</td></tr>
-        <tr><th>Data Warehousing and DBMS</th><td>Azure SQL, MS SQL Server, MySQL, PostgreSQL, Oracle</td></tr>
-        <tr><th>ETL / ELT</th><td>Spark, ADF, DBT, Custom Python Pipelines</td></tr>
-        <tr><th>Azure</th><td>ADF, Databricks, ADLS Gen2, Blob Storage, Functions, Power BI</td></tr>
-        <tr><th>AWS</th><td>S3, Lambda, Glue, MWAA</td></tr>
-        <tr><th>Snowflake</th><td>Merge, Time Travel, External Tables, Data Masking, Tasks, Zero Copy Clone</td></tr>
-        <tr><th>Orchestration & Governance</th><td>Airflow, ADF, Azure Functions, Row Access Policies, Sigma</td></tr>
-      </tbody>
-    </table>
-  </div>
+<div class="container content-section">
+<h2 class="section-title">Technical Skills</h2>
+<table class="table table-bordered">
+    <tbody>
+    <tr><th>Programming Languages</th><td>Python (NumPy, Pandas), PySpark, SQL</td></tr>
+    <tr><th>Data Warehousing and DBMS</th><td>Azure SQL, MS SQL Server, MySQL, PostgreSQL, Oracle</td></tr>
+    <tr><th>ETL / ELT</th><td>Spark, ADF, DBT, Custom Python Pipelines</td></tr>
+    <tr><th>Azure</th><td>ADF, Databricks, ADLS Gen2, Blob Storage, Functions, Power BI</td></tr>
+    <tr><th>AWS</th><td>S3, Lambda, Glue, MWAA</td></tr>
+    <tr><th>Snowflake</th><td>Merge, Time Travel, External Tables, Data Masking, Tasks, Zero Copy Clone</td></tr>
+    <tr><th>Orchestration & Governance</th><td>Airflow, ADF, Databricks Workflows, Azure Functions, Row Access Policies, Sigma</td></tr>
+    </tbody>
+</table>
+</div>
 
-  <footer class="text-center py-4">
-    <p class="mb-0">&copy; 2025 Yash Shekhar Sahu</p>
-  </footer>
+<div class="container content-section">
 
-</body>
-</html>
+<div class="project-box">
+<h2 class="section-title">Projects</h2>
+<ul>
+    <li><a href="#first_project">Data Management using Azure Cloud Services</a></li>
+    <li><a href="#second_project">Upstream ETL (Oil and Gas Domain)</a></li>
+    <li><a href="#third_project">FORGE, THERASPHERE (Healthcare Domain)</a></li>
+    <li><a href="#fourth_project">Future Sales Forecast (E-commerce/Sales)</a></li>
+</ul>
+</div>
+
+<div class="project-box" id="first_project">
+<h3>Data Management using Azure Cloud Services (Supply Chain Operations)</h3>
+<p><strong>Environment:</strong> Pyspark, Azure [ADLS Blob Storage, ADF, ADB, Functions, Azure SQL DB]</p>
+<p><strong>Description:</strong></p>
+<p>This project aims to optimize retail supply chain operations using data-driven insights and automation. This solution enhances inventory management, logistics, and demand forecasting. The system integrates data from various sources such as sales, suppliers, warehouses, and transportation to provide real-time tracking and predictive analytics. Using cloud-based solutions, machine learning models, and robust data pipelines, the project improves operational efficiency, reduces stockouts, and minimizes excess inventory, ensuring seamless product availability and customer satisfaction.</p>
+<p><strong>Responsibilities:</strong></p>
+<ul>
+    <li>Designed and implemented ETL pipelines using Azure Data Factory to ingest data from On-prem servers and upload to Azure Data Lake Storage Gen2 (ADLS Gen2) and Blob Storage.</li>
+    <li>Implemented daily scheduled triggers to ensure timely ingestion of the latest data from client servers to ADLS.</li>
+    <li>Developed and optimized Azure Databricks (ADB) notebooks for processing and transforming raw data into structured formats.</li>
+    <li>Leveraged ADB clusters to perform large-scale data processing tasks, including aggregations and joins, ensuring efficient handling of substantial datasets.</li>
+    <li>Designed and implemented a medallion architecture on ADLS to securely store both raw and processed data.</li>
+    <li>Crafted complex SQL queries to extract relevant data from Azure SQL DB for analysis and reporting.</li>
+    <li>Developed Azure Functions to automate various data processing tasks, enhancing operational efficiency.</li>
+</ul>
+</div>
+
+<div class="project-box" id="second_project">
+<h3>Upstream ETL (Oil and Gas Domain) | ExxonMobil</h3>
+<p><strong>Environment:</strong> Python, Numpy, Pandas, Snowflake, Apache Airflow, Sigma, Red Hat OpenShift</p>
+<p><strong>Description:</strong></p>
+<p>Getting data from OSDU website using API. This will be stored in Snowflake in JSON format. Extracting this JSON from Snowflake using Python code and flattening it into a table using the Pandas library in Python. Making transformations according to the requirement and loading back to the target database in a Snowflake table. A copy of this table is alterable and available to business people (Geo-Scientists) to make required changes which is captured in Sigma in the form of SQL views, which is then used to merge changes to the main table in the database and updated back to the website.</p>
+<p><strong>Responsibilities:</strong></p>
+<ul>
+    <li>Building curation pipeline, running and testing the ETL pipeline (built using Python) for the assigned data product to load the data into Snowflake.</li>
+    <li>Creating and testing Airflow DAG to run the ETL pipeline at specified time and time zone.</li>
+    <li>Creating Merge Queries to update the changes made by Business domain person captured by SIGMA in the alterable table to the main table in the database.</li>
+    <li>Creating Snowflake task to run the Merge Query every hour for the assigned data product.</li>
+    <li>Check each step and create Unit Testing documentation for the assigned data product.</li>
+</ul>
+</div>
+
+<div class="project-box" id="third_project">
+<h3>FORGE, THERASPHERE (Healthcare Domain) | Boston Scientific</h3>
+<p><strong>Environment:</strong> Snowflake, AWS (S3, Glue, Lambda functions), MWAA (Managed Workflows for Apache Airflow), DBT (Data Build Tool), Gitlab, Erwin (Data Modelling), JIRA, Xray testing</p>
+<p><strong>Description:</strong></p>
+<p>FORGE and THERASPHERE are different sub-domains, but follow the same data flow process. Raw data is provided from MySQL in AWS S3 using AWS Glue jobs by upstream team members in the Parquet format. A Spark job in Glue ingests data and creates an <code>_SUCCESS</code> file in S3. This <code>_SUCCESS</code> file triggers the Lambda function which initiates the Airflow DAG for the particular data product/table. Airflow executes models/SQL queries in DBT which write/update the data in Snowflake. The DBT model contains the information for the external stages—this is the query responsible for ingestion and curation. This processed data is used to create SQL VIEWS with required columns that are used in Tableau for reporting.</p>
+<p>For some tables, the upstream team used AWS DMS (Data Migration Service), which is not capable of creating <code>_SUCCESS</code> files. For these, we use SNS (Simple Notification Service) to trigger the Lambda function and initiate the Airflow DAG to run the DBT query and ingest/curate the data in Snowflake.</p>
+<p><strong>Responsibilities:</strong></p>
+<ul>
+    <li>Create Models/Macros in DBT which ingest/curate data from S3 to Snowflake via external stages.</li>
+    <li>Create the Lambda functions which trigger Airflow DAGs.</li>
+    <li>Create Airflow DAGs for the assigned product.</li>
+    <li>Run Glue jobs to get the data in S3 (jobs created by the upstream team).</li>
+    <li>Create Xray tests in JIRA for the requirements as per data quality standards.</li>
+</ul>
+</div>
+
+<div class="project-box" id="fourth_project">
+<h3>Future Sales Forecast (E-commerce/Sales)</h3>
+<p><strong>Environment:</strong> Apache Spark, Azure Databricks, ADF, PySpark, Python, Azure Blob</p>
+<p><strong>Description:</strong></p>
+<p>Looking at the various stores' sales around the world, the team is tasked with predicting their daily sales in advance.</p>
+<p><strong>Responsibilities:</strong></p>
+<ul>
+    <li>Bringing the data from source systems like SAP and Salesforce using Azure Data Factory (ADF).</li>
+    <li>Developed ADF data pipelines and Databricks Notebooks for data ingestion and transformation.</li>
+</ul>
+</div>
+
