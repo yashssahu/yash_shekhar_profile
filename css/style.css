@@ -1,11 +1,11 @@
 body {
-  background: linear-gradient(to bottom, #f5f7fa, #c3cfe2);
+  background: linear-gradient(to bottom, #000000 0%, #f5f7fa 10%, orange 100%);
   font-family: 'Segoe UI', sans-serif;
 }
 
 .header {
-  background-color: #0d6efd;
-  color: white;
+  background-color: #f57c00; /* Changed from blue (#0d6efd) to black */
+  color: rgb(9, 3, 3);
   padding: 30px;
   border-bottom: 4px solid #084298;
 }
@@ -27,13 +27,24 @@ body {
 }
 
 .content-section {
-  background-color: white;
+  background-color: #f57c00; /* Changed to dark orange */
   margin-top: 30px;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  color: black; /* Ensures existing text color remains readable */
 }
 
+/* Override Bootstrap's table style */
+.content-section table.table.table-bordered th,
+.content-section table.table.table-bordered td {
+  background-color: #d7932d !important; /* Light orange */
+  color: black !important; /* Ensure text remains visible */
+  border: 1px solid #940b0b;
+  padding: 10px;
+}
+
+
 footer {
-  background-color: #e9ecef;
+  background-color: #f3d80f;
 }
