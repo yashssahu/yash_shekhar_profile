@@ -2,100 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yash Shekhar Sahu | Data Engineer Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f8f9fa;
-    }
-    .header {
-      background-color: #0d6efd;
-      color: white;
-      padding: 40px 0;
-      text-align: center;
-    }
-    .section-title {
-      font-weight: 600;
-      margin-bottom: 20px;
-    }
-    .content-section {
-      padding: 40px 20px;
-    }
-    .skill-table th, .skill-table td {
-      vertical-align: top;
-      padding: 10px;
-    }
-    .btn-custom {
-      background-color: #0d6efd;
-      color: white;
-    }
-    .btn-custom:hover {
-      background-color: #0b5ed7;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yash Shekhar Sahu | Data Engineer</title>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-  <div class="header">
-    <h1>Yash Shekhar Sahu</h1>
-    <p class="lead">Data Engineer - Azure | PySpark | Snowflake | Python | AWS</p>
+  <div class="header d-flex justify-content-between align-items-center">
+    <div class="px-4 py-4">
+      <h1>Yash Shekhar Sahu</h1>
+      <p class="lead">Data Engineer - Azure | PySpark | Snowflake | Python | AWS</p>
+    </div>
+    <div class="px-4">
+      <img src="images/yash_picture.jpg" alt="Yash Shekhar Sahu" class="profile-pic">
+    </div>
   </div>
 
   <div class="container content-section">
     <h2 class="section-title">Professional Summary</h2>
     <ul>
-      <li>Results-driven Data Engineer with over 5 years of industry experience with a strong foundation in designing, developing, and optimizing data pipelines and data processing systems.</li>
-      <li>Skilled in building scalable ETL/ELT pipelines using Python, PySpark, and SQL, with a strong command of modern cloud platforms, particularly Azure, AWS and Snowflake.</li>
-      <li>Experienced in applying data governance practices such as data masking and row-level security using Snowflake features.</li>
-      <li>Proven ability to collaborate in DevOps environments using tools like GitHub, GitLab and in Agile-based delivery using Azure DevOps, JIRA and Xray Testing.</li>
+      <li>Results-driven Data Engineer with 5+ years of experience designing and optimizing data pipelines.</li>
+      <li>Expert in scalable ETL/ELT using Python, PySpark, and SQL on Azure, AWS & Snowflake.</li>
+      <li>Experienced in data masking and row-level security using Snowflake features.</li>
+      <li>Collaborates effectively using GitHub, GitLab, Azure DevOps, JIRA, and Xray Testing.</li>
     </ul>
   </div>
 
   <div class="container content-section">
     <h2 class="section-title">Technical Skills</h2>
-    <table class="table table-bordered skill-table">
+    <table class="table table-bordered">
       <tbody>
-        <tr>
-          <th>Programming Languages</th>
-          <td>Python (NumPy, Pandas), PySpark, SQL</td>
-        </tr>
-        <tr>
-          <th>Data Warehousing and DBMS</th>
-          <td>Azure SQL, MS SQL Server, MySQL, PostgreSQL, Oracle</td>
-        </tr>
-        <tr>
-          <th>Data Processing / ETL / ELT</th>
-          <td>Apache Spark (PySpark), Azure Data Factory (ADF), Custom Python Pipelines, DBT (Data Build Tool)</td>
-        </tr>
-        <tr>
-          <th>Cloud and Data Engineering – Azure</th>
-          <td>ADF, Azure Databricks, ADLS Gen2, Blob Storage, Azure Functions, Power BI</td>
-        </tr>
-        <tr>
-          <th>Cloud and Data Engineering – AWS</th>
-          <td>AWS S3, Lambda Functions, Glue Jobs, MWAA</td>
-        </tr>
-        <tr>
-          <th>Snowflake</th>
-          <td>Merge, Time Travel, External Tables, Internal/External Stages, Data Masking, Row Access Policies, Snowsight, Connector for Python, Zero Copy Clone, Tasks</td>
-        </tr>
-        <tr>
-          <th>Orchestration and Governance</th>
-          <td>Apache Airflow, ADF, Azure Functions, Data Masking, Row Access Policies, Sigma</td>
-        </tr>
+        <tr><th>Programming Languages</th><td>Python (NumPy, Pandas), PySpark, SQL</td></tr>
+        <tr><th>Data Warehousing and DBMS</th><td>Azure SQL, MS SQL Server, MySQL, PostgreSQL, Oracle</td></tr>
+        <tr><th>ETL / ELT</th><td>Spark, ADF, DBT, Custom Python Pipelines</td></tr>
+        <tr><th>Azure</th><td>ADF, Databricks, ADLS Gen2, Blob Storage, Functions, Power BI</td></tr>
+        <tr><th>AWS</th><td>S3, Lambda, Glue, MWAA</td></tr>
+        <tr><th>Snowflake</th><td>Merge, Time Travel, External Tables, Data Masking, Tasks, Zero Copy Clone</td></tr>
+        <tr><th>Orchestration & Governance</th><td>Airflow, ADF, Azure Functions, Row Access Policies, Sigma</td></tr>
       </tbody>
     </table>
   </div>
 
-  <div class="container text-center mb-5">
-    <a href="#projects" class="btn btn-custom me-3">View Projects (Coming Soon)</a>
-    <a href="#contact" class="btn btn-outline-secondary">Contact</a>
-  </div>
-
-  <footer class="text-center py-4 bg-light">
-    <p class="mb-0">&copy; 2025 Yash Shekhar Sahu. All rights reserved.</p>
+  <footer class="text-center py-4">
+    <p class="mb-0">&copy; 2025 Yash Shekhar Sahu</p>
   </footer>
 
 </body>
