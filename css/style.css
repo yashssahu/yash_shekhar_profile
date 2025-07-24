@@ -7,14 +7,14 @@ body {
   background-color: #f57c00;
   color: rgb(9, 3, 3);
   padding: 30px;
-  border-bottom: 4px solid #084298;
+  border-bottom: 4px solid #f7df0a;
 }
 
 .profile-pic {
   height: 140px;
   width: 140px;
   border-radius: 50%;
-  border: 4px solid white;
+  border: 4px solid #f7df0a;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
@@ -22,7 +22,7 @@ body {
   margin-top: 20px;
   font-weight: 600;
   color: #3d1303;
-  border-bottom: 2px solid #620303;
+  border-bottom: 2px solid #f7df0a;
   display: inline-block;
 }
 
@@ -32,7 +32,7 @@ body {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  color: black;
+  color: #080808;
 }
 
 .content-section ul li a {
@@ -49,7 +49,7 @@ body {
 
 .project-box {
   background-color: #f57c00; /* Darker orange box */
-  border: 4px solid #000000; /* Thick black border */
+  border: 4px solid #f7df0a; /* Thick black border */
   border-radius: 10px;
   padding: 25px;
   margin-bottom: 25px;
@@ -60,7 +60,7 @@ body {
   margin-top: 20px;
   font-weight: 600;
   color: #980808;
-  border-bottom: 2px solid #65053f;
+  border-bottom: 2px solid #f7df0a;
   display: inline-block;
 }
 
@@ -81,7 +81,7 @@ body {
 .content-section table.table.table-bordered td {
   background-color: #d7932d !important;
   color: black !important;
-  border: 1px solid #940b0b;
+  border: 1px solid #f7df0a;
   padding: 10px;
 }
 
