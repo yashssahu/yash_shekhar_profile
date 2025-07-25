@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -13,17 +14,17 @@
 </head>
 <body>
 
-<div class="header d-flex justify-content-between align-items-center">
+<div class="header d-flex justify-content-between align-items-center" data-aos="fade-down"> 
 <div class="px-4 py-4">
     <h1>Yash Shekhar Sahu</h1>
     <p class="lead">Data Engineer - Azure | AWS | Snowflake | Python | SQL | PySpark</p>
 </div>
 <div class="px-4">
-    <img src="images/yash_picture.JPG" alt="Yash Shekhar Sahu" class="profile-pic">
+    <img src="images/yash_picture.JPG" alt="Yash Shekhar Sahu" class="profile-pic" data-aos="zoom-in">
 </div>
 </div>
 
-<div class="container content-section">
+<div class="container content-section" data-aos="fade-right" data-aos-delay="400">
 <h2 class="section-title">Professional Summary</h2>
 <ul>
     <li>Results-driven Data Engineer with 5+ years of experience designing and optimizing data pipelines.</li>
@@ -34,7 +35,7 @@
 </ul>
 </div>
 
-<div class="container content-section">
+<div class="container content-section" data-aos="fade-right" data-aos-delay="800">
 <h2 class="section-title">Technical Skills</h2>
 <table class="table table-bordered">
     <tbody>
@@ -51,7 +52,7 @@
 
 <div class="container content-section">
 
-<div class="project-box">
+<div class="project-box" data-aos="fade-up" data-aos-delay="400">
 <h2 class="section-title">Projects</h2>
 <ul>
     <li><a href="#first_project">Data Management using Azure Cloud Services</a></li>
@@ -61,7 +62,7 @@
 </ul>
 </div>
 
-<div class="project-box" id="first_project">
+<div class="project-box" data-aos="fade-right" data-aos-delay="800" id="first_project">
 <h3>Data Management using Azure Cloud Services (Supply Chain Operations)</h3>
 <p><strong>Environment:</strong> Pyspark, Azure [ADLS Blob Storage, ADF, ADB, Functions, Azure SQL DB]</p>
 <p><strong>Description:</strong></p>
@@ -78,7 +79,7 @@
 </ul>
 </div>
 
-<div class="project-box" id="second_project">
+<div class="project-box" data-aos="fade-right" data-aos-delay="800" id="second_project">
 <h3>Upstream ETL (Oil and Gas Domain) | ExxonMobil</h3>
 <p><strong>Environment:</strong> Python, Numpy, Pandas, Snowflake, Apache Airflow, Sigma, Red Hat OpenShift</p>
 <p><strong>Description:</strong></p>
@@ -93,7 +94,7 @@
 </ul>
 </div>
 
-<div class="project-box" id="third_project">
+<div class="project-box" data-aos="fade-right" data-aos-delay="800" id="third_project">
 <h3>FORGE, THERASPHERE (Healthcare Domain) | Boston Scientific</h3>
 <p><strong>Environment:</strong> Snowflake, AWS (S3, Glue, Lambda functions), MWAA (Managed Workflows for Apache Airflow), DBT (Data Build Tool), Gitlab, Erwin (Data Modelling), JIRA, Xray testing</p>
 <p><strong>Description:</strong></p>
@@ -109,7 +110,7 @@
 </ul>
 </div>
 
-<div class="project-box" id="fourth_project">
+<div class="project-box" data-aos="fade-right" data-aos-delay="800" id="fourth_project">
 <h3>Future Sales Forecast (E-commerce/Sales)</h3>
 <p><strong>Environment:</strong> Apache Spark, Azure Databricks, ADF, PySpark, Python, Azure Blob</p>
 <p><strong>Description:</strong></p>
@@ -121,3 +122,15 @@
 </ul>
 </div>
 
+<!-- AOS Script -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true
+  });
+</script>
+
+</body>
+</html>
